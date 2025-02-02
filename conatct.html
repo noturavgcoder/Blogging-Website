@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with us for inquiries, feedback, or support.">
+  <title>Contact Us - Our Website</title>
+  <link rel="stylesheet" href="contact.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Ensures compatibility with older versions of Internet Explorer -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact-form">
+      <h1>Contact Us</h1>
+      <p>If you have any questions or feedback, feel free to get in touch with us by filling out the form below:</p>
+
+      <form action="/submit" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required placeholder="John Doe">
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required placeholder="Write your message here..." rows="5"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section id="contact-info">
+      <h2>Contact Information</h2>
+      <p>We are available through the following methods:</p>
+      <ul>
+        <li><strong>Email:</strong> support@example.com</li>
+        <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+        <li><strong>Address:</strong> 1234 Street Name, City, Country</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Our Website. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
